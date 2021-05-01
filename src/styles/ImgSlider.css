@@ -1,0 +1,26 @@
+button.BrainhubCarousel__arrows {
+  background-color: rgb(0, 109, 0);
+}
+
+.BrainhubCarousel__arrows:hover:enabled {
+  background-color: rgb(0, 109, 0);
+}
+.BrainhubCarouselItem {
+  background-color: rgb(155, 161, 136);
+  border-radius: 40px !important;
+}
+
+.BrainhubCarouselItem > img {
+  border-radius: 40px !important;
+  padding: 20px;
+}
+
+.individual-img {
+  background-color: rgb(155, 161, 136);
+  border-radius: 40px !important;
+  padding: 20px !important;
+}
+
+.BrainhubCarousel__track.BrainhubCarousel__track--draggable {
+  margin-bottom: 8.4px !important;
+}

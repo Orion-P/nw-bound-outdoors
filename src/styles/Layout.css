@@ -10,7 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -19,6 +20,7 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
 article,
 aside,
 details,
@@ -85,7 +87,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   line-height: 1.1;
 }
 mark {
@@ -118,7 +120,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 20px;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -243,6 +245,8 @@ textarea {
 }
 * {
   box-sizing: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 *:before {
   box-sizing: inherit;
@@ -258,7 +262,7 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 20px;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -275,7 +279,7 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 20px;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -354,7 +358,7 @@ ul {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  list-style-position: outside;
+  list-style-position: inside;
   list-style-image: none;
 }
 ol {
@@ -397,7 +401,8 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 pre {
   margin-left: 0;
@@ -594,4 +599,41 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.first-div {
+  background-color: rgb(175, 164, 164);
+  margin-top: 130px !important;
+  overflow: unset !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.color-block {
+  background-color: rgba(169, 228, 164, 0.267);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.white-block {
+  background-color: rgb(252, 245, 245);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.ui.button {
+  background-color: green !important;
+}
+
+.no-bottom-white-space {
+  padding-bottom: 0px;
+}
+
+.no-bottom-margin {
+  padding-bottom: 0px;
+  margin-bottom: -22px !important;
 }
