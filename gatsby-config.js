@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: "/src/images/nw-bound-logo.webp",
+        icon: "src/images/nw-bound-logo.webp',
       },
     },
     `gatsby-plugin-gatsby-cloud`,
