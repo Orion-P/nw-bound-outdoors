@@ -29,11 +29,7 @@ class HomePage extends React.Component {
           <div className="white-block">
             <Link href="/meet-your-guide">
               <h2>Meet Kevin</h2>
-              <img
-                class="tablet-img main-img"
-                alt="Kevin Williams"
-                src={kevinPic}
-              ></img>
+              <img class="main-img" alt="Kevin Williams" src={kevinPic}></img>
               <p>
                 Hi, I’m Kevin Williams owner of Northwest Bound Outdoors Guide
                 Service. I grew up in Oregon and have been fishing in the
