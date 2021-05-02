@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import "semantic-ui-css/semantic.min.css"
 
@@ -25,7 +26,13 @@ const Layout = ({ children }) => {
         siteTitle={data.site.siteMetadata?.title || `NW Bound Outdoors`}
       />
       <div className="first-div">
-        <main>{children}</main>
+        <main>
+          <Helmet>
+            <meta charSet="utf-8" />
+            <title>NW Bound Outdoors - Oregon Fishing & Hunting Guide</title>
+          </Helmet>
+          {children}
+        </main>
         <Footer></Footer>
       </div>
     </>
