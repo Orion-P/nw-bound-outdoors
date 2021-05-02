@@ -5,7 +5,7 @@ import Layout from "../../components/Layout"
 // import SEO from "../components/SEO"
 
 import "../../styles/Hunting.css"
-import kevinPic from "../../images/placeholder.png"
+import hunting from "../../images/hunting.webp"
 
 const IndexPage = () => (
   <Layout>
@@ -18,9 +18,9 @@ const IndexPage = () => (
         <div>
           <h3>Hunting</h3>
           <img
-            className="smaller-img smaller-img-desktop"
+            className="tablet-img main-img"
             alt="hunting"
-            src={kevinPic}
+            src={hunting}
           ></img>
           <p>
             Hello my name is Kevin Williams, I’m an avid outdoorsman who lives

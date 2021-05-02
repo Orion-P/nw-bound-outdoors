@@ -7,7 +7,7 @@ import Layout from "../components/Layout"
 import "../styles/Home.css"
 
 import kevinPic from "../images/springchinook.webp"
-import placeHolder from "../images/placeholder.png"
+import huntingBow from "../images/huntingbow.webp"
 import summer from "../images/summer-fishing.webp"
 import spring from "../images/spring-fishing.webp"
 import winter from "../images/winter-fishing.webp"
@@ -97,9 +97,9 @@ class HomePage extends React.Component {
             </div>
             <div className="white-block">
               <img
-                className="smaller-img-desktop"
+                className="smaller-img-desktop main-img"
                 alt="hunting"
-                src={placeHolder}
+                src={huntingBow}
               ></img>
               <p>
                 When you choose me as your guide for hunting I will show you how
