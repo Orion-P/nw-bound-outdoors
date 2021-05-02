@@ -45,6 +45,9 @@ class Header extends React.Component {
           <Link className="menu-item" href="/oregon-hunting">
             Hunting
           </Link>
+          <Link className="menu-item" href="/gallery">
+            Gallery
+          </Link>
         </Menu>
 
         <div class="right menu">
