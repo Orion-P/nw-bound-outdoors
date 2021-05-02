@@ -24,12 +24,7 @@ const IndexPage = () => (
       </div>
 
       <div className="white-block">
-          <ImgSlider
-            className="smaller-caro"
-            img1={steelhead1}
-            img2={steelhead2}
-            img3={steelhead3}
-          />
+        <ImgSlider img1={steelhead1} img2={steelhead2} img3={steelhead3} />
 
         <ImgSlider
           alt="winter steelhead fish"

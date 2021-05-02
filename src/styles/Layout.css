@@ -665,7 +665,7 @@ hr {
   .BrainhubCarousel {
     height: 600px !important;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -23px;
     border-radius: 50px !important;
   }
 
@@ -676,6 +676,11 @@ hr {
   p {
     padding-left: 80px;
     padding-right: 80px;
+  }
+
+  .sturgeon {
+    height: 70%;
+    width: 70%;
   }
 }
 
@@ -699,6 +704,22 @@ hr {
   p {
     padding-left: 200px;
     padding-right: 200px;
+  }
+
+  .sturgeon {
+    height: 30%;
+    width: 30%;
+  }
+
+  .BrainhubCarousel {
+    height: 600px !important;
+    margin-top: 20px;
+    margin-bottom: -23px;
+    border-radius: 50px !important;
+  }
+
+  .BrainhubCarouselItem > img {
+    height: 40% !important;
   }
 }
 

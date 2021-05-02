@@ -64,7 +64,7 @@ const IndexPage = () => (
             <h3>Sturgeon</h3>
             <img
               alt="sturgeon fish"
-              className="individual-img"
+              className="individual-img sturgeon"
               src={sturgeon}
             ></img>
             <p>
