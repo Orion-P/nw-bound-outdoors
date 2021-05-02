@@ -637,3 +637,21 @@ pre tt:after {
   padding-bottom: 0px;
   margin-bottom: -22px !important;
 }
+
+/* RESPONSIVE DESIGN */
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+  .tablet-img {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1024px) {
+  .tablet-img {
+    height: 75%;
+    width: 75%;
+  }
+}
