@@ -23,15 +23,17 @@ const MeetKevin = () => (
         <hr></hr>
       </div>
       <div className="white-block no-bottom-white-space">
+        <br />
         <p>
           I own and operate a 16 foot Alumaweld drift boat for the smaller
           rivers and a 25 foot Alumaweld Columbia sled for the large rivers.
         </p>
 
         <p>
+          <br />
           <strong>I supply the following:</strong>
           <br /> <br /> Life vests <br /> <br /> Rods <br /> <br /> Reels <br />
-          <br /> Bait and tackle <br />
+          <br /> Bait and tackle <br /> <br />
         </p>
 
         <p>
@@ -52,12 +54,23 @@ const MeetKevin = () => (
           *Cancellations within 30 days of the trip are fully refundable. Less
           than 30 days can be rescheduled or are non refundable.
         </p>
+        <br />
+      </div>
+
+      <div className="color-block">
+        <Link href="https://squareup.com/appointments/book/uu4iatwccr4f0e/L2WSFAAXGPHA9/start">
+          <div className="ui primary button">Schedule My Trip</div>
+        </Link>
       </div>
 
       <div className="white-block">
         <div>
           <h3>DRIFT BOAT</h3>
-          <img alt="drift boat" src={driftBoat}></img>
+          <img
+            className="smaller-img smaller-img-desktop"
+            alt="drift boat"
+            src={driftBoat}
+          ></img>
           <p>
             16 ft Drift boat: seats 2-3 people $200.00 per seat. A $50.00 non
             refundable deposit per seat is due at the time of booking.
@@ -66,14 +79,18 @@ const MeetKevin = () => (
       </div>
 
       <div className="color-block">
-        <Link href="https://squareup.com/appointments/buyer/widget/3sx4a3ghmmfghv/LDD696QWAJDWJ">
+        <Link href="https://squareup.com/appointments/book/uu4iatwccr4f0e/L2WSFAAXGPHA9/start">
           <div className="ui primary button">Schedule My Trip</div>
         </Link>
       </div>
 
       <div className="white-block">
         <h3>SLED BOAT</h3>
-        <img alt="sled boat" src={sledBoat}></img>
+        <img
+          className="smaller-img-desktop"
+          alt="sled boat"
+          src={sledBoat}
+        ></img>
         <p>
           25 ft Sled: seats 5 people $200.00 per seat. A $50.00 non refundable
           deposit per seat is due at the time of booking.
@@ -81,14 +98,18 @@ const MeetKevin = () => (
       </div>
 
       <div className="color-block">
-        <Link href="https://squareup.com/appointments/buyer/widget/3sx4a3ghmmfghv/LDD696QWAJDWJ">
+        <Link href="https://squareup.com/appointments/book/uu4iatwccr4f0e/L2WSFAAXGPHA9/start">
           <div className="ui primary button">Schedule My Trip</div>
         </Link>
       </div>
 
       <div className="white-block">
         <h3>Buoy 10</h3>
-        <img alt="buoy 10 fishing spot" src={buoy10}></img>
+        <img
+          className="smaller-img-desktop"
+          alt="buoy 10 fishing spot"
+          src={buoy10}
+        ></img>
         <p>
           $250.00 per seat. Where the Columbia river meets the Pacific Ocean.
           Huge numbers of Chinook and Coho travel up the Columbia river from the
@@ -101,7 +122,7 @@ const MeetKevin = () => (
       </div>
 
       <div className="color-block">
-        <Link href="https://squareup.com/appointments/buyer/widget/3sx4a3ghmmfghv/LDD696QWAJDWJ">
+        <Link href="https://squareup.com/appointments/book/uu4iatwccr4f0e/L2WSFAAXGPHA9/start">
           <div className="ui primary button">Schedule My Trip</div>
         </Link>
       </div>
@@ -113,7 +134,11 @@ const MeetKevin = () => (
 
         <div>
           <h3>Hunting</h3>
-          <img alt="hunting" src={kevinPic}></img>
+          <img
+            className="smaller-img-desktop"
+            alt="hunting"
+            src={kevinPic}
+          ></img>
           <p>
             When you choose me as your guide for hunting I will show you how to
             track, spot & stalk, glass and communicate with the species we're

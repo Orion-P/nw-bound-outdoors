@@ -17,7 +17,11 @@ const IndexPage = () => (
 
         <div>
           <h3>Hunting</h3>
-          <img alt="hunting" src={kevinPic}></img>
+          <img
+            className="smaller-img smaller-img-desktop"
+            alt="hunting"
+            src={kevinPic}
+          ></img>
           <p>
             Hello my name is Kevin Williams, I’m an avid outdoorsman who lives
             and breathes the outdoors. I started hunting at the age of 13 with

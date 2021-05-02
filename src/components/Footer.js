@@ -27,9 +27,9 @@ class Footer extends React.Component {
           <strong>Contact Information</strong>
         </p>
         <div>
-          <div className="footer-text">nwboundoutdoors@gmail.com</div>
+          <div className="footer-text">kevin@nwboundoutdoors.com</div>
           <a
-            href="mailto:nwboundoutdoors@gmail.com"
+            href="mailto:kevin@nwboundoutdoors.com"
             className="ui button primary"
           >
             Email Us

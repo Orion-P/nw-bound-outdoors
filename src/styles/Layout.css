@@ -638,20 +638,73 @@ pre tt:after {
   margin-bottom: -22px !important;
 }
 
+hr {
+  margin-bottom: 22px !important;
+}
+
 /* RESPONSIVE DESIGN */
+@media only screen and (max-device-width: 600px) {
+  .main-img {
+    height: 60%;
+    width: 60%;
+  }
+}
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
   .tablet-img {
-    height: 50%;
-    width: 50%;
+    height: 35%;
+    width: 35%;
+  }
+
+  .smaller-img {
+    height: 70%;
+    width: 70%;
+  }
+
+  .BrainhubCarousel {
+    height: 600px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px !important;
+  }
+
+  .BrainhubCarouselItem > img {
+    height: 40% !important;
+  }
+
+  p {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 
 /* Large screens ----------- */
 @media only screen and (min-width: 1024px) {
   .tablet-img {
-    height: 75%;
-    width: 75%;
+    height: 15%;
+    width: 15%;
+  }
+
+  .main-img {
+    height: 20%;
+    width: 20%;
+  }
+
+  .smaller-img-desktop {
+    height: 50%;
+    width: 50%;
+  }
+
+  p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  p {
+    padding-left: 500px;
+    padding-right: 500px;
   }
 }

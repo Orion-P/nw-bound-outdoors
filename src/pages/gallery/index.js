@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import ImgSlider from "../../components/ImgSlider"
 import Layout from "../../components/Layout"
@@ -25,7 +24,13 @@ const IndexPage = () => (
       </div>
 
       <div className="white-block">
-        <ImgSlider img1={steelhead1} img2={steelhead2} img3={steelhead3} />
+          <ImgSlider
+            className="smaller-caro"
+            img1={steelhead1}
+            img2={steelhead2}
+            img3={steelhead3}
+          />
+
         <ImgSlider
           alt="winter steelhead fish"
           img1={chinook}

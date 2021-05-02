@@ -8,6 +8,7 @@ import { slide as Menu } from "react-burger-menu"
 import Logo from "../images/nw-bound-logo.webp"
 
 import "../styles/Header.css"
+//https://squareup.com/appointments/book/uu4iatwccr4f0e/L2WSFAAXGPHA9/start
 
 class Header extends React.Component {
   state = { isActive: false }
@@ -66,7 +67,7 @@ class Header extends React.Component {
         <div class="right menu">
           <div class="item">
             <a
-              href="https://squareup.com/appointments/book/d4ctoy7ndtq03g/LDD696QWAJDWJ/start"
+              href="https://squareup.com/appointments/book/uu4iatwccr4f0e/L2WSFAAXGPHA9/start"
               class="ui inverted button booking-button"
             >
               Book A Trip

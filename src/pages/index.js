@@ -6,7 +6,7 @@ import Layout from "../components/Layout"
 
 import "../styles/Home.css"
 
-import kevinPic from "../images/walleye1.webp"
+import kevinPic from "../images/springchinook.webp"
 import placeHolder from "../images/placeholder.png"
 import summer from "../images/summer-fishing.webp"
 import spring from "../images/spring-fishing.webp"
@@ -29,7 +29,11 @@ class HomePage extends React.Component {
           <div className="white-block">
             <Link href="/meet-your-guide">
               <h2>Meet Kevin</h2>
-              <img class="tablet-img" alt="Kevin Williams" src={kevinPic}></img>
+              <img
+                class="tablet-img main-img"
+                alt="Kevin Williams"
+                src={kevinPic}
+              ></img>
               <p>
                 Hi, I’m Kevin Williams owner of Northwest Bound Outdoors Guide
                 Service. I grew up in Oregon and have been fishing in the
@@ -96,7 +100,11 @@ class HomePage extends React.Component {
               <h2>Hunting</h2>
             </div>
             <div className="white-block">
-              <img alt="hunting" src={placeHolder}></img>
+              <img
+                className="smaller-img-desktop"
+                alt="hunting"
+                src={placeHolder}
+              ></img>
               <p>
                 When you choose me as your guide for hunting I will show you how
                 to track, spot & stalk, glass and communicate with the species

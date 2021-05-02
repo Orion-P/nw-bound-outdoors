@@ -7,7 +7,6 @@ import Layout from "../../components/Layout"
 import "../../styles/MeetYourGuide.css"
 import kevinPic from "../../images/walleye1.webp"
 
-
 class MeetKevin extends React.Component {
   componentDidMount() {
     window.scrollTo(0, 0)
@@ -21,7 +20,11 @@ class MeetKevin extends React.Component {
             <h2>Meet Kevin</h2>
           </div>
           <div className="white-block">
-            <img alt="Kevin Williams" src={kevinPic}></img>
+            <img
+              className="tablet-img main-img"
+              alt="Kevin Williams"
+              src={kevinPic}
+            ></img>
             <p>
               Hi, I’m Kevin Williams, owner of Northwest Bound Outdoors Guide
               Service. I grew up in Oregon and have been fishing in the
