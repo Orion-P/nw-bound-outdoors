@@ -111,7 +111,12 @@ const IndexPage = () => (
               img2={crab1}
               img3={crab2}
             ></ImgSlider>
-            <p className="below-caro-space-fix">TODO</p>
+            <p className="below-caro-space-fix">
+              Looking to go home with some fresh and tasty Oregon Dungeness
+              crab? We will put the pots in the water before we go out and fish
+              for salmon and come back and pick them up after the day of fishing
+              for you and your family to enjoy.
+            </p>
           </div>
         </div>
         <div className="white-block no-bottom-white-space">
