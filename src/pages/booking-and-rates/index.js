@@ -6,7 +6,7 @@ import { Icon } from "semantic-ui-react"
 
 import "../../styles/MeetYourGuide.css"
 
-import kevinPic from "../../images/placeholder.png"
+import hunting from "../../images/hunting.webp"
 import buoy10 from "../../images/bouy10.webp"
 import sledBoat from "../../images/sledboat2.webp"
 import driftBoat from "../../images/driftboat2.webp"
@@ -135,9 +135,9 @@ const MeetKevin = () => (
         <div>
           <h3>Hunting</h3>
           <img
-            className="smaller-img-desktop"
+            className="main-img hunting-img"
             alt="hunting"
-            src={kevinPic}
+            src={hunting}
           ></img>
           <p>
             When you choose me as your guide for hunting I will show you how to

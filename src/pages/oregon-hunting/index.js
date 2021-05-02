@@ -18,7 +18,7 @@ const IndexPage = () => (
         <div>
           <h3>Hunting</h3>
           <img
-            className="tablet-img main-img"
+            className=" main-img hunting-img"
             alt="hunting"
             src={hunting}
           ></img>
