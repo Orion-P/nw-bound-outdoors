@@ -682,6 +682,13 @@ hr {
     height: 70%;
     width: 70%;
   }
+  .above-caro-space-fix {
+    margin-bottom: 0px;
+  }
+
+  .below-caro-space-fix {
+    margin-top: 20px;
+  }
 }
 
 /* Large screens ----------- */
@@ -720,6 +727,14 @@ hr {
 
   .BrainhubCarouselItem > img {
     height: 40% !important;
+  }
+
+  .above-caro-space-fix {
+    margin-bottom: 0px;
+  }
+
+  .below-caro-space-fix {
+    margin-top: 20px;
   }
 }
 

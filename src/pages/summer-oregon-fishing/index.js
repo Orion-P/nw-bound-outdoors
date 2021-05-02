@@ -30,14 +30,14 @@ const IndexPage = () => (
         <h2 class="month">June</h2>
         <div className="white-block no-bottom-white-space">
           <div>
-            <h3>Spring Chinook</h3>
+            <h3 className="above-caro-space-fix">Spring Chinook</h3>
             <ImgSlider
               alt="spring chinook fish"
               img1={chinook2}
               img2={chinook}
               img3={chinook1}
             ></ImgSlider>
-            <p>
+            <p className="below-caro-space-fix">
               Chinook salmon are one of the Pacific salmon species and can be up
               to 50 lbs, although 10-25 is more common. The spring Chinook
               salmon is the best tasting salmon you’ll eat.
@@ -46,14 +46,14 @@ const IndexPage = () => (
         </div>
         <div className="white-block no-bottom-white-space">
           <div>
-            <h3> Summer Steelhead</h3>
+            <h3 className="above-caro-space-fix"> Summer Steelhead</h3>
             <ImgSlider
               alt="steelhead fish"
               img1={steelhead3}
               img2={steelhead1}
               img3={steelhead2}
             ></ImgSlider>
-            <p>
+            <p className="below-caro-space-fix">
               These fish are widely available in the Northwest and weigh about
               5-15 pounds. Summer Steelhead fish will put up a good fight
               becoming airborne as you're trying to reel them in.
@@ -82,14 +82,14 @@ const IndexPage = () => (
         <h2 class="month">July</h2>
         <div className="white-block no-bottom-white-space">
           <div>
-            <h3>Coho</h3>
+            <h3 className="above-caro-space-fix">Coho</h3>
             <ImgSlider
               alt="coho fish"
               img1={coho}
               img2={coho1}
               img3={coho2}
             ></ImgSlider>
-            <p>
+            <p className="below-caro-space-fix">
               These fish are also known as silvers and weigh about 8-12 pounds,
               24-30 inches long. Coho salmon are a rich reddish orange meat and
               are very tasty much like the Spring Chinook Salmon.
@@ -104,26 +104,26 @@ const IndexPage = () => (
         <h2 class="month">August</h2>
         <div className="white-block no-bottom-white-space">
           <div>
-            <h3>Crab</h3>
+            <h3 className="above-caro-space-fix">Crab</h3>
             <ImgSlider
               alt="crabs"
               img1={crab}
               img2={crab1}
               img3={crab2}
             ></ImgSlider>
-            <p>TODO</p>
+            <p className="below-caro-space-fix">TODO</p>
           </div>
         </div>
         <div className="white-block no-bottom-white-space">
           <div>
-            <h3>Fall Chinook</h3>
+            <h3 className="above-caro-space-fix">Fall Chinook</h3>
             <ImgSlider
               alt="fall chinook fish"
               img1={chinook2}
               img2={chinook}
               img3={chinook1}
             ></ImgSlider>
-            <p>
+            <p className="below-caro-space-fix">
               Fall Chinook salmon are the largest of all salmon we fish for in
               Oregon. Catching a 30 plus pound Fall Chinook is not uncommon.
               These are also great tasting fish to eat and with the beautiful
