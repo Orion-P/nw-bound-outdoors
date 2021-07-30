@@ -111,7 +111,7 @@ const MeetKevin = () => (
           src={buoy10}
         ></img>
         <p>
-          $250.00 per seat. Where the Columbia river meets the Pacific Ocean.
+          $200.00 per seat. Where the Columbia river meets the Pacific Ocean.
           Huge numbers of Chinook and Coho travel up the Columbia river from the
           Pacific Ocean through the mouth of the Columbia and past Astoria on
           the way upstream. Buoy 10 is one of the most popular and productive
