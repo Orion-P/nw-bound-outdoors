@@ -10,6 +10,8 @@ import chinook from "../../images/springchinook8.webp"
 import chinook1 from "../../images/springchinook1.webp"
 import chinook2 from "../../images/springchinook5.webp"
 import sturgeon from "../../images/sturgeon.webp"
+import sturgeon2 from "../../images/sturgeon2.webp"
+import sturgeon3 from "../../images/sturgeon3.webp"
 import coho from "../../images/coho.webp"
 import coho1 from "../../images/coho1.webp"
 import coho2 from "../../images/coho2.webp"
@@ -81,13 +83,14 @@ const IndexPage = () => (
         <h2 class="month">November</h2>
         <div className="white-block no-bottom-white-space">
           <div>
-            <h3>Sturgeon</h3>
-            <img
-              alt="sturgeon fish"
-              className="individual-img sturgeon"
-              src={sturgeon}
-            />
-            <p>
+            <h3 className="above-caro-space-fix">Sturgeon</h3>
+            <ImgSlider
+              alt="sturgeon"
+              img1={sturgeon}
+              img2={sturgeon2}
+              img3={sturgeon3}
+            ></ImgSlider>
+            <p className="below-caro-space-fix">
               These fish are the powerhouse of the water, they fight harder than
               any other fish in the Northwest. Measuring at 2 - 10 feet in
               length Sturgeon can only be caught and kept a few days a year, the

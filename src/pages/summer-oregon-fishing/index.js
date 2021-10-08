@@ -13,6 +13,8 @@ import steelhead1 from "../../images/wintersteelhead1.webp"
 import steelhead2 from "../../images/wintersteelhead2.webp"
 import steelhead3 from "../../images/wintersteelhead3.webp"
 import sturgeon from "../../images/sturgeon.webp"
+import sturgeon2 from "../../images/sturgeon2.webp"
+import sturgeon3 from "../../images/sturgeon3.webp"
 import coho from "../../images/coho.webp"
 import coho1 from "../../images/coho1.webp"
 import coho2 from "../../images/coho2.webp"
@@ -63,13 +65,14 @@ const IndexPage = () => (
 
         <div className="white-block ">
           <div>
-            <h3>Sturgeon</h3>
-            <img
-              alt="sturgeon fish"
-              className="individual-img sturgeon"
-              src={sturgeon}
-            ></img>
-            <p>
+            <h3 className="above-caro-space-fix">Sturgeon</h3>
+            <ImgSlider
+              alt="sturgeon"
+              img1={sturgeon}
+              img2={sturgeon2}
+              img3={sturgeon3}
+            ></ImgSlider>
+            <p className="below-caro-space-fix">
               These fish are the powerhouse of the water, they fight harder than
               any other fish in the Northwest. Measuring at 2 - 10 feet in
               length Sturgeon can only be caught and kept a few days a year, the
